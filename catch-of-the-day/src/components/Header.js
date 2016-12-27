@@ -18,6 +18,10 @@ import React from 'react';
       )
   }
 
+  Header.propTypes = {
+    tagline: React.PropTypes.string.isRequired
+  }
+
 
 
 
